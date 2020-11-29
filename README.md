@@ -1,4 +1,4 @@
-# Foobar
+# Django And Graphql
 
 Django and Graphql 
 ## Installation
@@ -9,7 +9,7 @@ To install graphene
 pip install graphene-django
 ```
 
-## Usage
+
 
 <!-- ```python
 import foobar
