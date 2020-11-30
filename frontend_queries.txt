@@ -1,0 +1,43 @@
+#day 1
+query myQueryFunc($id: Int = 1){
+  allQuestions(id:$id){
+    title
+  }
+  
+  allAnswers(id:$id){
+    answerText
+  }
+}
+
+
+
+#day 2
+
+#create
+mutation mymutation {
+  createCategory(name: "batasha32"){
+    category{
+      name
+    }
+  }
+}
+
+#update
+mutation mymutation {
+  updateCategory(id: 6, name: "naturestemper6969"){
+    category{
+      id, name
+    }
+  }
+}
+
+
+#delete
+
+mutation mymutation {
+  deleteCategory(id: 3){
+    category{
+      id, name
+    }
+  }
+}
